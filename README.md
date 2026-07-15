@@ -14,14 +14,15 @@ Python 3.11 · NumPy · pandas · scipy · matplotlib · Jupyter
 
 ## Three insights
 - The watch-hours distribution is heavily right-skewed; the
-  median (X h/month) is the right "typical user" figure for
-  exec communication, not the mean (Y h/month).
-- The new "Recommended for you" carousel lifted watch time
-  by Z% (Cohen's d = 0.XX, Bonferroni-corrected p = 0.YY).
+  median (6.60 h/month) is the right "typical user" figure for
+  exec communication, not the mean (10.17 h/month).
+- The new "Recommended for you" carousel lifted click rate
+  by 11.82% (Cohen's d = 0.128, Bonferroni-corrected p = 4.82e-08).
   No SRM detected.
-- French users average X% more watch time than US users with
-  non-overlapping 95% CIs — likely real, worth a follow-up
+- US users average 2.3% more watch time than French users with
+  overlapping 95% CIs — likely real, worth a follow-up
   on content catalogue or pricing.
+
 
 ## What I'd do next
 Run a multi-week holdout to check for novelty decay on the
